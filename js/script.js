@@ -12,7 +12,7 @@ class Student {
 	}
 
 	get Marks() {
-		return this.newStudent ? this.marks : undefined;
+		return this.newStudent ? this.marksArr : undefined;
 	}
 
 	set Marks(mark) {
@@ -61,5 +61,8 @@ student1.dismiss();
 console.log(student1.newStudent);
 student1.recover();
 console.log(student1.newStudent);
+
+
+
 
 
