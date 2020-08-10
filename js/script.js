@@ -53,6 +53,7 @@ let student2 = new BudgetStudent('НУ ЛП', "5-го", "Рудомир Ната
 
 console.log(student1);
 console.log(student2);
+console.log(student1.getInfo());
 console.log(student1.marksArr);
 student1.Marks = 3;
 console.log(student1.marksArr);
